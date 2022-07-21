@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:id="@+id/activity_rhyme_ttls"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ttls"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp">
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/img2"
+            android:layout_alignRight="@+id/img2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/star1" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignBottom="@+id/img2"
+            android:layout_marginEnd="103dp"
+            android:layout_marginRight="103dp"
+            android:layout_marginBottom="22dp"
+            android:layout_toStartOf="@+id/img2"
+            android:layout_toLeftOf="@+id/img2"
+            android:src="@drawable/star1" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="19dp"
+            android:layout_marginRight="19dp"
+            android:src="@drawable/star2" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignBottom="@+id/img1"
+            android:layout_marginEnd="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toStartOf="@+id/img1"
+            android:layout_toLeftOf="@+id/img1"
+            android:src="@drawable/star1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="@string/ttls"
+            android:textColor="#FFFFFF"
+            android:textSize="32dp" />
+
+
+    </RelativeLayout>
+</layout>

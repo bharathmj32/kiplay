@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kids App</string>
+    <string name="ttls">Twinkle, twinkle, little star,\n\nHow I wonder what you are!\n\nUp above the world so high,\n\nLike a diamond in the sky.</string>
+    <string name="bbbs">Baa, baa, black sheep\n
+Have you any wool?\n
+Yes sir, yes sir, three bags full.\n
+One for the master,
+And one for the dame,\n
+And one for the little boy
+Who lives down the lane.</string>
+    <string name="paint">Paint</string>
+</resources>
